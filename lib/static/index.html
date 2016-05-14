@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <style>
+      body {
+        width: 100%;
+        max-width:1024px;
+        margin:0 auto;
+        background-color:#f5f5f5;
+      }
+    </style>
+    
+    <link rel="stylesheet" href="/chartist/dist/chartist.min.css?enabled=true&delay=500" data-push-asset="$" />
+    <link rel="stylesheet" href="/chartist/dist/chartist-plugin-tooltip.css?enabled=true&delay=500" data-push-asset="$" />
+    
+  </head>
+  <body>
+    
+    <h1>HTTP/2 Push-Assets</h1>
+
+    <div id="chartMain" class="ct-chart ct-square" style="position:relative;height:320px;width:100%;max-width:1280px"></div>
+
+    <p></p>
+    <label for="url">Website to Evaluate</label><br />
+    <input placeholder="www.mywebsite.com" id="url" style="width:50%;min-width:100px;max-width:300px" /> <button id="go" value="go" onclick="benchmarkWebsite()">Go</button>
+
+    <h2>Other Demos</h2>
+    <ol>
+      <li><a href="/demo/index.html?enabled=true&delay=500">Push-Assets Fixed Mode</a></li>
+      <li><a href="/demo/index.html?enabled=true&dynamic=true&delay=500">Push-Assets Dynamic Mode</a></li>
+      <li><a href="/demo/index.html?enabled=false&delay=500">Push-Assets Disabled</a></li>
+    </ol>
+
+    <div id="iframeTests" style="display:none"></div>
+
+    <script src="/chartist/dist/chartist.js?enabled=true&delay=500" data-push-asset="$"></script>
+    <script src="/chartist/dist/chartist-plugin-axistitle.min.js?enabled=true&delay=500" data-push-asset="$"></script>
+    <script src="/chartist/dist/chartist-plugin-tooltip.min.js?enabled=true&delay=500" data-push-asset="$"></script>
+    <script src="/scripts/main.js?enabled=true&delay=500" data-push-asset="$"></script>
+        
+  </body>
+</html>
