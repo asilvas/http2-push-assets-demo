@@ -9,6 +9,11 @@
         margin:0 auto;
         background-color:#f5f5f5;
       }
+      
+      .ct-zoom-rect {
+        fill: rgba(200, 100, 100, 0.3);
+        stroke: red;
+      }
     </style>
     
     <link rel="stylesheet" href="/chartist/dist/chartist.min.css?enabled=true&delay=500" data-push-asset="$" />
@@ -19,7 +24,18 @@
     
     <h1>HTTP/2 Push-Assets</h1>
 
-    <div id="chartMain" class="ct-chart ct-square" style="position:relative;height:320px;width:100%;max-width:1280px"></div>
+    <div id="chartByProtocol" class="ct-chart ct-square" style="position:relative;height:320px;width:100%;max-width:1280px"></div>
+    <div id="chartByLatency" class="ct-chart ct-square" style="position:relative;height:320px;width:100%;max-width:1280px"></div>
+
+    <p style="text-align:right"><button id="chartMainReset">Reset Zoom</button></p>
+    <div id="chartHttp1" class="ct-chart ct-square" style="position:relative;height:320px;width:100%;max-width:1280px"></div>
+    <p></p>
+    
+    <div id="chartHttp2" class="ct-chart ct-square" style="position:relative;height:320px;width:100%;max-width:1280px"></div>
+    <p></p>
+
+    <div id="chartHttp2Push" class="ct-chart ct-square" style="position:relative;height:320px;width:100%;max-width:1280px"></div>
+    <p></p>
 
     <p></p>
     <label for="url">Website to Evaluate</label><br />
@@ -27,16 +43,18 @@
 
     <h2>Other Demos</h2>
     <ol>
-      <li><a href="/demo/index.html?enabled=true&delay=500">Push-Assets Fixed Mode</a></li>
-      <li><a href="/demo/index.html?enabled=true&dynamic=true&delay=500">Push-Assets Dynamic Mode</a></li>
-      <li><a href="/demo/index.html?enabled=false&delay=500">Push-Assets Disabled</a></li>
+      <li><a href="https://localhost:1121/demo/index.html?enabled=true&delay=500">Push-Assets Fixed Mode</a></li>
+      <li><a href="https://localhost:1121/demo/index.html?enabled=true&dynamic=true&delay=500">Push-Assets Dynamic Mode</a></li>
+      <li><a href="https://localhost:1121/demo/index.html?enabled=false&delay=500">Push-Assets Disabled</a></li>
     </ol>
 
     <div id="iframeTests" style="display:none"></div>
 
+    <script src="/scripts/async.min.js?enabled=true&delay=500" data-push-asset="$"></script>
     <script src="/chartist/dist/chartist.js?enabled=true&delay=500" data-push-asset="$"></script>
     <script src="/chartist/dist/chartist-plugin-axistitle.min.js?enabled=true&delay=500" data-push-asset="$"></script>
     <script src="/chartist/dist/chartist-plugin-tooltip.min.js?enabled=true&delay=500" data-push-asset="$"></script>
+    <script src="/chartist/dist/chartist-plugin-zoom.js?enabled=true&delay=500" data-push-asset="$"></script>
     <script src="/scripts/main.js?enabled=true&delay=500" data-push-asset="$"></script>
         
   </body>
