@@ -33,6 +33,7 @@
     "extend": "^3.0.0",
     "htmlparser2": "^3.9.0",
     "http2": "^3.3.4",
+    "http2-push-assets": "^0.1.1",
     "minimist": "^1.2.0",
     "parseurl": "^1.3.1"
   }
