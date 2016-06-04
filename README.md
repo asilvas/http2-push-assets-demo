@@ -5,9 +5,9 @@ Demonstration of Client & Server implementations of **Internet Draft** HTTP/2 Pu
 
 ## Other Resources
 
-* [http2-push-assets](https://github.com/asilvas/http2-push-assets) - Home of HTTP/2 Push-Assets Extension **Proposal**
-* [http2-push-assets-node Client](https://github.com/asilvas/http2-push-assets-node/README.md#client) - Vanilla Node.js client
-* [http2-push-assets-node Server](https://github.com/asilvas/http2-push-assets-node/README.md#server) - Vanilla Node.js server connect middleware
+* [http2-push-assets](https://github.com/asilvas/http2-push-assets) - Home of HTTP/2 Push-Assets Extension **Internet Draft**
+* [http2-push-assets-node Client](https://github.com/asilvas/http2-push-assets-node#client) - Vanilla Node.js client
+* [http2-push-assets-node Server](https://github.com/asilvas/http2-push-assets-node#server) - Vanilla Node.js server connect middleware
 
 
 ## Load Time by Protocol
