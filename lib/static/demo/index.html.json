@@ -1,19 +1,19 @@
 {
   "assets": {
-    "/demo/demo.css?delay=500": {
+    "/demo/demo.css?delay=250": {
     },
-    "/demo/demo.css?delay=500&1": {
+    "/demo/demo.css?delay=250&1": {
     },
-    "/demo/demo.css?delay=500&2": {
+    "/demo/demo.css?delay=250&2": {
     },
-    "/demo/demo.css?delay=500&3": {
+    "/demo/demo.css?delay=250&3": {
     },
-    "/demo/demo.css?delay=500&4": {
+    "/demo/demo.css?delay=250&4": {
     },
-    "/demo/demo.js?delay=500": {
+    "/demo/demo.js?delay=250": {
       "key": "/demo/demo.js"
     },
-    "/images/cute_fox.svg?delay=500": {
+    "/images/cute_fox.svg?delay=250": {
     }
   }
 }
