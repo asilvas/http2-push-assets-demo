@@ -7,7 +7,7 @@
     "test": "test"
   },
   "engines": {
-    "node": "6.1.0"
+    "node": ">=6.1.0"
   },
   "scripts": {
     "client": "node ./lib/benchmark-run.js --url \"https://localhost:1121/?enabled=true&delay=500\"",
@@ -24,16 +24,14 @@
   },
   "dependencies": {
     "async": "^2.0.0-rc.3",
-    "azure": "^0.10.6",
     "body-parser": "^1.15.0",
     "chartist": "^0.9.7",
     "connect": "^3.4.1",
     "connect-static": "^1.5.2",
-    "express": "^4.13.4",
     "extend": "^3.0.0",
     "htmlparser2": "^3.9.0",
     "http2": "^3.3.4",
-    "http2-push-assets": "^0.1.1",
+    "http2-push-assets": "^0.1.2",
     "minimist": "^1.2.0",
     "parseurl": "^1.3.1"
   }
